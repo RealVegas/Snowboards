@@ -33,6 +33,20 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+ul.dash-list {
+  list-style: none; /* Отказываемся от стандартных маркеров */
+  margin-left: -1em;
+}
+
+li::before {
+    content: '-';
+    display: inline-block;
+    text-position: inside;
+    margin-left: -3.5em;
+    padding-left: 2.5em;
+    width: 1em;
+}
+
 section {
     padding: 20px;
     margin: 20px;
