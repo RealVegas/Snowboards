@@ -49,16 +49,15 @@ li::before {
 
 section {
     padding: 20px;
-    margin: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin 20px;
+    display: block;
 }
 
 section img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 10px 0;
+    margin: 10px;
 }
 
 footer {
